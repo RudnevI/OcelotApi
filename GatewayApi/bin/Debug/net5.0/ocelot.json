@@ -1,0 +1,21 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/GetAll",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "https://localhost:44341",
+          "Port": 443
+        }
+      ],
+      "UpstreamPathTemplate": "",
+      "UpstreamHttpMethod": [
+        "Get"
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  }
+}
